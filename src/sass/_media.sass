@@ -1,0 +1,212 @@
+@media ( max-width: 1200px )
+	.menu 
+		.menu_item
+			padding-right: 20px
+			.menu_link  
+				font-size: 13px
+	.promo
+		.promo_header
+			font-size: 50px
+	.advantage
+		.advantage_main
+			align-items: flex-start
+	.subheader
+		.subheader_call
+			font-size: 11px
+		.subheader_phone
+			font-size: 18px
+	.mobile
+		&_item
+			min-width: 100%
+			min-height: 260px
+			.mobile_item_subtitle
+				font-size: 22px
+	.world
+		height: 480px
+	
+	
+	
+@media ( max-width: 991px )
+	.menu 
+		padding: 13px 0
+		.menu_item
+			padding-right: 6px
+			.menu_link  
+				font-size: 10px
+	.promo
+		.promo_header
+			font-size: 36px
+		.promo_subheader
+			font-size: 22px
+	.subheader
+		.subheader_logo
+			margin-top: 18px
+		img
+			width: 100%
+		.subheader_official
+			font-size: 10px
+		.subheader_call
+			font-size: 9px
+			margin-top: 25px
+		.subheader_phone
+			font-size: 14px
+		.subheader_btn
+			width: 100%
+			margin-top: 28px
+			font-size: 10px
+			height: 31px
+	.advantage
+		.advantage_main
+			align-items: center
+			flex-direction: column
+			.advantage_text
+				margin-top: 25px
+	.mobile
+		height: 1200px
+		&_item
+			min-width: 100%
+			min-height: 300px
+			.mobile_item_subtitle
+				font-size: 20px
+	.auto
+		.choice_img
+			width: 100%
+	.world
+		height: 400px
+	footer
+		.container
+			.icon
+				left: -15px
+
+@media ( max-width: 767px )
+	.menu
+		position: fixed
+		flex-direction: column
+		justify-content: center
+		top: 0
+		left: -100%   
+		width: 50%
+		height: 100vh
+		padding: 20px 15px
+		background-color: rgba(0,0,0, .8)
+		transition: 0.6s all
+		z-index: 100
+	.menu_active
+		left: 0
+		.menu_item
+			padding-right: 0
+			border: none
+			margin-top: 20px
+			display: flex
+			justify-content: center
+			align-content: center
+			.menu_link
+				font-size: 20px
+	.hamburger
+		display: block
+		position: absolute
+		right: 10px
+		top: 50%
+		transform: translateY(-50%)
+		width: 26px
+		height: 12px
+		span 
+			display: block 
+			height: 2px
+			width: 100%
+			background-color: #fff 
+			margin-bottom: 2px
+			transition: 0.5s all
+		&_active 
+			span 
+				margin-bottom: -2px 
+				&:nth-child(1)
+					transform: translateY(3px) rotate(-45deg)
+				&:nth-child(2)
+					display: none
+				&:nth-child(3)
+					transform: translateY(3px) rotate(45deg)
+	.advantage
+		.work
+			font-size: 26px
+	.mobile
+		height: 2250px
+		.work
+			font-size: 30px
+	footer
+		.container
+			.mid
+				.header
+					width: 300px
+					a	
+						font-size: 13px
+				.subheader
+					width: 85%
+					a
+						font-size: 10px
+			.icon
+				left: -75px
+	
+	
+@media ( max-width: 576px )
+	.menu
+		width: 85%
+		&_item
+			width: 100%
+			text-align: center
+		&_link
+			display: block
+	.subheader
+		height: 70px
+		.subheader_logo
+			margin-top: 20px
+		&_official
+			display: none
+		&_phone
+			display: block
+			margin-top: 10px
+			color: white
+			font-size: 16px
+			font-weight: 400
+			text-transform: uppercase
+			text-align: center
+		.subheader_btn
+			display: block
+			width: 100%
+			height: 28px
+			margin: 0 auto
+			margin-top: 8px
+		.xs-hidden
+			display: none
+		.xs-visible
+			display: block
+			text-align: center
+			font-size: 16px
+			margin-top: 10px
+	.promo
+		.promo_header
+			line-height: 41px
+			font-size: 36px
+		.prom0_subheader
+			margin-top: 18px
+			line-height: 27px
+	.conditions
+		.work
+			line-height: 40px
+	.world
+		.work
+			font-size: 30px
+		.subwork
+			font-size: 14px
+	footer
+		height: 160px
+		.container
+			.mid
+				width: 340px
+				.subheader
+					width: 92%
+					margin-top: -5px
+			.icon
+				left: 50%
+				transform: translateX(-50%)
+				top: 55px
